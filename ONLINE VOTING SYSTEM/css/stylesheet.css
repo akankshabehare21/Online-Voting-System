@@ -1,0 +1,148 @@
+input {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#upload {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#headerSection {
+  padding: 2px;
+  font-size: large;
+  color: white;
+  background-color: rgb(0, 0, 0, 0.75);
+  border-radius: 20px;
+}
+
+#loginSection {
+  padding: 5px;
+  background-color: rgb(0, 0, 0, 0.8);
+  color: white;
+  width: 40%;
+  border-radius: 20px;
+  margin-top: 8%;
+}
+
+#registerSection {
+  padding: 5px;
+  background-color: rgb(0, 0, 0, 0.8);
+  color: white;
+  width: 40%;
+  border-radius: 20px;
+  /* margin-top: 2.5%; */
+}
+
+body {
+  background-image: url("bgimg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+  font-size: large;
+}
+
+.txt_box {
+  background-color: white;
+  font-size: medium;
+}
+
+#loginbtn {
+  font-size: large;
+  padding: 10px;
+  background-color: #01017b;
+  border: solid #01017b;
+  color: white;
+  border-radius: 5px;
+  transition: 500ms;
+}
+
+#loginbtn:hover {
+  background-color: red;
+  border: solid red;
+}
+
+#reglink {
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  transition: 200ms;
+}
+
+a:hover {
+  color: rgb(255, 106, 0);
+}
+
+#mainSection {
+  padding: 10px;
+}
+
+#profileSection {
+  width: 30%;
+  float: left;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#groupSection {
+  width: 60%;
+  float: right;
+  background-color: rgb(0, 0, 0, 0.75);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+
+#back-button {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: small;
+  padding: 10px;
+  background-color: rgb(1, 1, 123);
+  border: solid #01017b;
+  color: white;
+  border-radius: 5px;
+  transition: 500ms;
+}
+
+#back-button:hover {
+  background-color: red;
+  border: solid red;
+}
+
+#logout-button {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: small;
+  padding: 10px;
+  background-color: #01017b;
+  border: solid #01017b;
+  color: white;
+  border-radius: 5px;
+  transition: 500ms;
+}
+
+#logout-button:hover {
+  background-color: red;
+  border: solid red;
+}
